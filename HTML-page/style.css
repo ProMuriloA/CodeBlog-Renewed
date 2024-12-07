@@ -16,22 +16,6 @@ nav {
     font-weight: bold;
     font-size: 22px;
 }
-@media only screen and (max-width: 1000px) and (min-width:600px) {
-    .a-navbar{
-        font-size: 16px;
-    }
-    nav {
-        margin: auto 0;
-    }
-}
-@media only screen and (max-width:600px) {
-    .a-navbar{
-        font-size: 12px;
-    }
-    nav {
-        margin: auto 0;
-    }
-}
 .link-span {
     -webkit-text-stroke: 1px black;
     color: white;
