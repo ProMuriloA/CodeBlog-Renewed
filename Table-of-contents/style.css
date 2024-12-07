@@ -1,16 +1,12 @@
 li {
-
     font-size: 1rem;
     font-weight: 600;
-
 }
 nav {
     background-color: cornflowerblue;
     border: solid 1px;
     position: sticky;
-    border-radius: 50px;
-    margin-left: 15%;
-    margin-right: 15%;
+
 }   
 .a-navbar {
     text-decoration: none;
@@ -42,4 +38,16 @@ article {
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
+}
+footer {
+    background-color: cornflowerblue;
+    border-top: 1px black solid;
+    margin-top: 20%;
+    padding-bottom: 1%;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+footer ul{
+    list-style: none;
 }
