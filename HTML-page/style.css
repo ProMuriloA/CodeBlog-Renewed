@@ -1,0 +1,28 @@
+p {
+    text-indent: 3%;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+}
+nav {
+    background-color: cornflowerblue;
+    border: solid 1px;
+    padding: 0.1% 1%;
+    position: sticky;
+    border-radius: 50px;
+}
+.a-navbar {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+.link-span {
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+article {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
