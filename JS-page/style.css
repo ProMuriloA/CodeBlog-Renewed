@@ -35,3 +35,9 @@ footer {
 footer ul{
     list-style: none;
 }
+.footer-link {
+    color: darkgreen;
+}
+.footer-link:active {
+    color: blueviolet;
+}
