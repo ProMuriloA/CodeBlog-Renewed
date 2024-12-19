@@ -1,20 +1,34 @@
+:root {
+    --primary-color: cornflowerblue;
+    --secondary-color: #FDFD96;
+    --footer-link-color: darkgreen;
+    --text-color: #f1f1f1;
+    --link-active-color: blueviolet;
+    --link-hover-color: green;
+    --font-size-base: 1rem;
+}
+.body {
+    background-color: var(--secondary-color);
+    overflow-y: scroll;
+    height: 100%;
+}
 p {
     text-indent: 3%;
 }
 nav {
-    background-color: cornflowerblue;
-    padding: 0.1% 1%;
+    background-color: var(--primary-color);
+    padding: 0 1%;
     position: sticky;
+    top: 0;
     z-index: 10;
 }
 .a-navbar {
     text-decoration: none;
-    color: #f1f1f1;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 22px;
 }
 .link-span {
-    -webkit-text-stroke: 0.5px black;
     color: white;
 }
 article {
@@ -25,9 +39,8 @@ article {
     text-align: justify;
 }
 footer {
-    background-color: cornflowerblue;
-    border-top: 1px black solid;
-    margin-top: 15%;
+    background-color: var(--primary-color);
+    margin-top: 2rem;
     padding-bottom: 1%;
     font-size: 1rem;
     font-weight: 600;
@@ -36,8 +49,11 @@ footer ul{
     list-style: none;
 }
 .footer-link {
-    color: darkgreen;
+    color: var(--footer-link-color);
+}
+.footer-link:hover {
+    color: var(--link-hover-color);
 }
 .footer-link:active {
-    color: blueviolet;
+    color: var(--link-active-color);
 }
