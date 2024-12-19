@@ -15,7 +15,7 @@
 p {
     text-indent: 3%;
 }
-nav {
+.nav {
     background-color: var(--primary-color);
     padding: 0 1%;
     position: sticky;
@@ -27,16 +27,20 @@ nav {
     color: var(--text-color);
     font-weight: bold;
     font-size: 22px;
+    margin: auto;
 }
 .link-span {
     color: white;
 }
 article {
-    margin: 5% auto;
+    margin: 4% auto;
     max-width: 70%;
     font-size: 1rem;
     font-weight: 600;
     text-align: justify;
+}
+section {
+    margin: 6% auto;
 }
 footer {
     background-color: var(--primary-color);
