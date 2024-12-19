@@ -23,15 +23,20 @@ li {
     top: 0;
     z-index: 10;
 }
-.a-navbar {
+.logo-navbar {
+    background-color: var(--primary-color);
+    padding: 0 1%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.link-span, .nav-a {
+    
     text-decoration: none;
     color: var(--text-color);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     margin: auto;
-}
-
-.link-span {
     color: white;
 }
 article {

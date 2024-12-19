@@ -22,14 +22,20 @@ p {
     top: 0;
     z-index: 10;
 }
-.a-navbar {
+.logo-navbar {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
     font-size: 22px;
     margin: auto;
 }
-.link-span {
+.link-span, .nav-a {
+    
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
     color: white;
 }
 article {
