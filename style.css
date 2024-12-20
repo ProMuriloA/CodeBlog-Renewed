@@ -30,6 +30,9 @@ li {
     top: 0;
     z-index: 10;
 }
+header a {
+    text-decoration: none;
+}
 .link-span, .nav-a {
     
     text-decoration: none;
